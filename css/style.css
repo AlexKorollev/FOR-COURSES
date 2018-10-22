@@ -1,7 +1,6 @@
 body{
     margin: 0;
     padding: 0;
-    background: #f7f7f7;
     font-family: sans-serif;
 }
 .content button{
@@ -15,6 +14,7 @@ body{
     font-size: 20px;
 }
 .content {
+    background: #bcbcbc;
     display:flex;
     height:100vh;
     flex-flow: row wrap;
@@ -32,15 +32,15 @@ body{
 }
 
 .content button:before{
-    right:-20px;
-    top:-20px;
+    right:-25px;
+    top:-15px;
     border-right: 3px solid red;
     border-top: 3px solid red;
     transform: translate(-100%, 50%);
 }
 .content button:after{
-    left:-20px;
-    bottom:-20px;
+    left:-25px;
+    bottom:-15px;
     border-left: 3px solid red;
     border-bottom: 3px solid red;
     transform: translate(100%,-50%);
@@ -51,4 +51,19 @@ body{
 }
 .content button:focus{
     background: #c6c6c6;
+}
+.second-content {
+    display:flex;
+    height:100vh;   
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    outline:none;
+    font-size: 20px;
+    
+}
+.block{
+    border-radius: 10px;
+    padding:15px;
+    border: 2px solid#bababa;
 }
