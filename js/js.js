@@ -1,4 +1,8 @@
 second.onclick = function(){
+    //    if (content.style.background = "#bcbcbc")
+    //         content.style.background = "#2d2d2d";
+    //    else if (content.style.backgroundColor = "#2d2d2d")
+    //         content.style.backgroundColor = "#bcbcbc";
     content.style.background = "#2d2d2d";
 
 
