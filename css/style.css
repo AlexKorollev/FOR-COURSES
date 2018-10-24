@@ -55,7 +55,7 @@ body{
 .second-content {
     display:flex;
     height:100vh;   
-    flex-flow: row wrap;
+    flex-flow: column wrap;
     justify-content: space-around;
     align-items: center;
     outline:none;
