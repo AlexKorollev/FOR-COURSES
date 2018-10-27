@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#objectTable{
+    width: 300px;
+    border: 1px solid darkgray;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+#objectTable th, #objectTable td{
+    border: 1px solid darkgray;
+    padding: 5px;
+}
+
+
+
